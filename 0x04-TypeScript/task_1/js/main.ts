@@ -21,6 +21,7 @@ const teacher3: BaseTeacher = {
 
 console.log(teacher3);
 
+// Task 2
 interface Directors extends Teacher{
     numberOfReports: number;
 }
@@ -32,4 +33,14 @@ const director1: Directors = {
   fullTimeEmployee: true,
   numberOfReports: 17,
 };
+
 console.log(director1);
+
+
+// Task 3
+function printTeacher(firstName:string, lastName:string) {
+    
+    return `${firstName.charAt(0).toUpperCase()}. ${lastName}`;
+}
+
+console.log(printTeacher("John", "Doe"));
