@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript compiled output
+*.tsbuildinfo
+*.js
+*.d.ts
+*.js.map
+*.d.ts.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env
+
+# Webpack specific
+webpack-stats.json
+
+# Jest specific
+coverage/
